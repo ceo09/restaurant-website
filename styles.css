@@ -1,0 +1,885 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: white;
+}
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 6px;
+}
+.navul {
+    list-style: none;
+}
+.navbar a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+.navbar ul {
+    display: flex;
+    
+}
+.navbar ul li {
+    margin-left: 10px;
+}
+.firstsec {
+    background-image: url(navimg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 800px;
+    image-resolution: 100%
+    ;
+}
+.navspan {
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+i {
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lockicon {
+    padding-left: 300px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.navspan2 {
+    padding: 20px;
+    align-items: center;
+    padding-top: 27px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.arrowicon {
+    padding: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+    
+}
+.navbutton {
+    background: orange;
+    
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 300px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: orange 1px solid;
+    width: 190px;
+    height: 40px;
+    margin-left: 30px;
+    
+}
+.navbutton:hover {
+    background: gold;
+    border: gold 1px solid;
+}
+.arrowicon2 {
+    font-size: 90px;
+}
+.firsth1 {
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.firstsecbutton {
+    background: black;
+    border-radius: 300px;
+    color: orange;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 150px;
+}
+.firstsecbutton:hover {
+    background: gold;
+    border: 1px black solid;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 1100px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.desserts {
+        padding-left: 500px;
+        font-size: 25px;
+        font-weight: bold;
+}
+.boxes .container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 70px;
+    overflow-x: scroll;
+    margin-right: auto;
+    
+}
+.boxes .container::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;               /* width of the entire scrollbar */
+  }
+  
+  .boxes .container::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  
+  .boxes .container::-webkit-scrollbar-thumb {
+    background-color: whitesmoke;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid whitesmoke;  /* creates padding around scroll thumb */
+  }
+.box {
+    width: 0px;
+    height: 50px;
+    background: whitesmoke;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: lighter;
+    height: 120px;
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+
+}
+.box:hover {
+    width: 260px;
+    height: 120px;
+    font-weight: bold;
+    transition: 1s;
+}
+.hotdessertsbox {
+    background: white;
+}
+.box img {
+    height: 90px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+.boxes .container a {
+    color: black;
+}
+
+.box p {
+    float: right;
+    padding-top: 50px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: 15px;
+
+
+}
+.box span {
+    color: orange;
+    
+}
+
+.thirdsectext p {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold; 
+    padding-left: 30px;
+    padding-top: 200px;
+}
+.boxes3 .container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.thirdsecimg {
+    background-image:url(thirdsecimg.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    border-radius: 60%;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+
+.thirdsec button {
+    width: 200px;
+    height: 50px;
+    border-radius: 500px;
+    background: black;
+    color: orange;
+    padding: 10px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.thirdsec button:hover {
+    background: goldenrod;
+    border: 1px black solid;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.thirdsec {
+    background: white;
+    height: 700px;
+    margin-bottom: 0;
+    margin-top: 100px;
+
+}
+.fourthsec h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 140px;
+    padding-top: 40px;
+    padding-left: 150px;
+
+}
+.fourthsec a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.fourthsec a:hover {
+    opacity: 0.7;
+} 
+.fourthsec {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 600px;
+    background: linear-gradient( 800deg, rgb(33, 200, 225), rgb(100, 45, 200), rgb(90, 45, 100), rgb(255, 100, 200));
+    color: white;
+}
+.thirdsectext p {
+    font-size: 60px;
+}
+.fourthsec span {
+    color: white;
+    padding-left: 550px;
+    font-size: 20px;
+}
+.fourthsecimg img {
+    width: 250px;
+    height: 250px;
+    border-radius: 60%;
+    display: flex;
+    margin: 60px;
+    
+}
+.fourthsec i {
+    color: white;
+    font-size: 15px;
+}
+
+.img .container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+figcaption {
+    padding-left: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifthsec h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.fifthsec span {
+    padding-left: 550px;
+    color: gray;
+    font-size: 20px;
+}
+.fifthsec {
+    margin-top: 0px;
+ 
+}
+.boxes2 .container a {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.boxes2 .container a:hover {
+    opacity: 0.7;
+}
+.fifthsec {
+    background:  white;
+}
+.fifthsec p {
+    padding-top: 50px;
+    padding-right: 80px;
+    font-size: 100%;
+    font-weight: bold;
+}
+.boxes2 .container {
+    display: flex;
+    justify-content: flex-start;
+}
+.boxes2 .box {
+    height: 350px;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 80px;
+}
+.boxes2 .box img {
+    height: 220px;
+    width: 280px;
+    border-radius: 30px;
+}
+.boxes2 span {
+    color: black;
+}
+.fifthsec button {
+    width: 200px;
+    height: 50px;
+    background: black;
+    color: orange;
+    font-size: 15px;
+    font-weight: lighter;
+    border-radius: 700px;
+    margin-left: 500px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.fifthsec button:hover {
+    background: goldenrod;
+    border: 1px black solid;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.sixthsectext p {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold; 
+    padding-left: 10px;
+    padding-top: 300px; 
+}
+.boxes6 .container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sixthsecimg {
+    background-image:url(organic\ food.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 800px;
+    border-radius: 60%;
+    margin-left: 10px;
+    margin-top: 150px;
+    
+}
+
+
+.sixthsec {
+    background: white;
+    height: 700px;
+    margin-bottom: 0;
+    margin-top: 100px;
+
+}
+.sixthsectext span {
+    
+    font-size: 30px;
+    font-weight: bold;
+}
+.sixthsec p {
+    font-weight: lighter;
+}
+.sixthsectext i {
+    color: orangered;
+    font-size: 15px;
+}
+.borderradiusimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.seventhsec {
+    background: black;
+    height: 600px;
+    width: 100%;
+    margin-top: 200px;
+}
+.box7 button {
+    width: 200px;
+    height: 50px;
+    background: white;
+    border-radius: 500px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    margin: 20px;
+    margin-top: 50px;
+}
+.box7 button:hover {
+    background: gainsboro;
+    color: black;
+   
+}
+.box7 .container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box7 .container p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 200px;  
+    padding-left: 50px;  
+}
+.box7 .container .boxes {
+    display: flex;
+    justify-content: flex-start;
+}
+.box7 .container img {
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 550px;
+}
+footer {
+    width: 100%;
+    height: 400px;
+    background: whitesmoke;
+}
+.footerboxes .container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 0;
+    padding-top: 80px;
+    padding-right: 20px;
+}
+.footerboxes1 p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+}
+.footerboxes1 p a {
+    color: black;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.footerboxes1 p a:hover {
+       color: purple;
+       text-decoration: underline;
+}
+@media(max-width: 768px) {
+    .boxes .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 2, 2fr;
+        margin-left: 30px;
+        margin-right: 500px;
+
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .navbutton {
+        margin-left: 0;
+    }
+    .navspan2 {
+        padding-left: 5px;
+        margin-left: 0;
+    }
+    .arrowicon {
+        padding-left: 2px;
+    }
+    .arrowicon2 {
+        padding-left: 5px;
+    }
+    .lockicon {
+        padding-left: 5px;
+    }
+    .navspan {
+        padding-left: 10px;
+    }
+    
+    .thirdsec .boxes3 .container {
+        display: grid;
+        grid-template-columns: 1, 1fr;
+
+    }
+    .thirdsec .boxes3 .container .thirdsectext p {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-left: 250px;
+        
+    }
+    .thirdsecimg {
+        width: 300px;
+        height: 300px;
+        margin-left: 200px;
+    }
+    .thirdsec .thirdsectext a button {
+        margin-left: 250px;
+    }
+    .fourthsec .container {
+        margin-left: 10px;
+       
+    }
+    
+    .fourthsec img {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+    }
+    .fourthsec span {
+        padding-left: 300px;
+    }
+    .fourthsec h1 {
+        padding-left: 120px;
+    }
+    .fourthsec {
+        height: 450px;
+    }
+    .fourthsec figcaption {
+        padding-left: 100px;
+    }
+    .fifthsec .container {
+        display: block;
+        margin-left: 100px;
+    }
+    .fifthsec button {
+        margin-left: 270px;
+    }
+    .fifthsec span {
+        padding-left: 300px;
+    }
+    .fifthsec h1 {
+        padding-left: 120px;
+    }
+    .sixthsec .container {
+        display: block;
+    }
+    .sixthsecimg {
+        width: 400px;
+        height: 400px;
+        margin-left: 150px;
+    }
+    .sixthsec p {
+    padding-top: 10px;
+    padding-left: 100px;
+    font-weight: lighter;
+    }
+    .seventhsec img {
+        display: none;
+    }
+    .box7 .container .boxes p {
+        padding-left: 90px;
+    }
+    .footerboxes .container .footerboxes1 {
+        display: grid;
+        grid-template-columns: 1, 1fr;
+    }
+    .footerboxes .container .footerboxes1 h2 {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+    }
+    .footerboxes .container .footerboxes1 a {
+        font-size: 15px;
+    }
+    .footerboxes .container .footerboxes1 h3 {
+        padding-top: 100px;
+        font-size: 15px;
+    }
+    .none {
+        display: none;
+    }
+}
+@media(max-width: 300px) {
+    .navbutton {
+        font-size: 10px;
+        padding: 2px;
+        width: 100px;
+        height: 20px;
+    }
+ 
+
+}
+@media(max-width: 480px) {
+    .boxes .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 2, 2fr;
+        margin-left: 30px;
+        margin-right: 500px;
+
+    }
+    .navspan {
+        display: none;
+    }
+    .navbutton {
+        width: 100px;
+        font-size: 10px;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    .navspan2 {
+        padding-left: 10px;
+    }
+    .navbar i {
+        padding-left: 15px;
+    }
+    .desserts {
+        padding-left: 100px;
+    }
+    .thirdsecimg {
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .thirdsec .boxes3 .container .thirdsectext p {
+        padding-left: 0px;
+        padding-right: 50px;
+        padding-left: 60px;
+    }
+    .thirdsec .thirdsectext a button {
+        margin-left: 60px;
+    }
+    .img .container .fourthsecimg {
+        display: block;
+        margin-left: 0px;
+        width: 120px;
+        height: 100px;
+
+    }
+    .fourthsecimg figcaption {
+        padding-left: 70px;
+    }
+    .img .container {
+        margin-left: 0px;
+    }
+    .fourthsec span {
+        padding-left: 170px;
+    }
+    .fifthsec .container {
+        display: block;
+        margin-left: 0px;
+        overflow: hidden;
+    } 
+    .fifthsec span {
+        padding-left: 190px;
+    }
+    .fifthsec button {
+        margin-left: 170px;
+    }
+    .sixthsecimg {
+        width: 400px;
+        height: 400px;
+        margin-left: 30px;
+    }
+    .sixthsectext {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+    .seventhsec .box7 .container .boxes p {
+        font-weight: bold;
+        font-size: 35px;
+        padding-left: 40px;
+        padding-top: 100px;
+    }
+    .seventhsec button {
+        margin-left: 80px;
+    }
+    .seventhsec {
+        height: 450px;
+    }
+    footer .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    footer {
+        height: 700px;
+    }
+    .fifthsec {
+        margin-left: 0px;
+       
+    }
+
+   
+
+}
+@media screen and (max-width: 480px) {
+    .boxes .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 2, 2fr;
+        margin-left: 30px;
+        margin-right: 500px;
+
+    }
+    .navspan {
+        display: none;
+    }
+    .navbutton {
+        width: 100px;
+        font-size: 10px;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    .navspan2 {
+        padding-left: 10px;
+    }
+    .navbar i {
+        padding-left: 15px;
+    }
+    .desserts {
+        padding-left: 100px;
+    }
+    .thirdsecimg {
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .thirdsec .boxes3 .container .thirdsectext p {
+        padding-left: 0px;
+        padding-right: 50px;
+        padding-left: 60px;
+    }
+    .thirdsec .thirdsectext a button {
+        margin-left: 60px;
+    }
+    .img .container .fourthsecimg {
+        display: block;
+        margin-left: 0px;
+        width: 120px;
+        height: 100px;
+
+    }
+    .fourthsecimg figcaption {
+        padding-left: 70px;
+    }
+    .img .container {
+        margin-left: 0px;
+    }
+    .fourthsec span {
+        padding-left: 170px;
+    }
+    .fifthsec .container {
+        display: block;
+        margin-left: 0px;
+        overflow: hidden;
+    } 
+    .fifthsec span {
+        padding-left: 190px;
+    }
+    .fifthsec button {
+        margin-left: 170px;
+    }
+    .sixthsecimg {
+        width: 400px;
+        height: 400px;
+        margin-left: 30px;
+    }
+    .sixthsectext {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+    .seventhsec .box7 .container .boxes p {
+        font-weight: bold;
+        font-size: 35px;
+        padding-left: 40px;
+        padding-top: 100px;
+    }
+    .seventhsec button {
+        margin-left: 80px;
+    }
+    .seventhsec {
+        height: 450px;
+    }
+    footer .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    footer {
+        height: 700px;
+    }
+    .fifthsec {
+        margin-left: 0px;
+       
+    }
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
